@@ -81,6 +81,6 @@ bool F_UNIQUE(da_function_free)(F_UNIQUE(aa)* da_array) { \
 }\
 x F_UNIQUE(da_function)(F_UNIQUE(aa)* da_array)
 
-#define dinamic(type, name) DC(type) type name() DA(type)
+#define dynamic(type, name) DC(type) type name() DA(type)
 
 #endif

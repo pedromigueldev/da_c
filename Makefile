@@ -11,7 +11,7 @@ all:$(BIN)
 $(BIN): $(OBJS)
 	$(CC) $(CFLAGS) $(OBJS) -o $@
 
-$(OBJ)/%.o: $(SRC)/%.c $(SRC)/%.h
+$(OBJ)/%.o: $(SRC)/%.c $(SRC)/%.h $(SRC)/da.h
 	$(CC) $(CFLAGS) -c $< -o $@
 
 clean:

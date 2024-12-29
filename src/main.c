@@ -4,7 +4,7 @@
 
 dinamic(float, new_dynamic_block) {
     da_create(float) floating = {0};
-    da_at(floating, 0) = 100203.f;
+    da_set(floating, 0) = 100203.f;
 
     return floating.items[0];
 } // auto free DA

@@ -45,7 +45,7 @@
         }\
     } while(0)
 
-#define da_at(array, at) \
+#define da_set(array, at) \
     if (at+1 > array.count) array.count = at+1;\
     da_verify(array);\
     array.items[at]
